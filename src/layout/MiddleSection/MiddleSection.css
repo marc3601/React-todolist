@@ -1,0 +1,21 @@
+.middle {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.middle .verticalLine {
+  position: absolute;
+  border-left: 2px solid #b3b3b3;
+  left: 23%;
+  top: -80px;
+  bottom: 60px;
+  z-index: -1;
+}
+
+.middle .middle__button {
+  width: fit-content;
+  position: relative;
+  left: 107px;
+  bottom: -22px;
+}
+/*# sourceMappingURL=MiddleSection.css.map */

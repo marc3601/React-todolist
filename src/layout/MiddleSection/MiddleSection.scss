@@ -1,0 +1,18 @@
+.middle {
+  position: relative;
+  padding-bottom: 60px;
+  .verticalLine {
+    position: absolute;
+    border-left: 2px solid rgb(179, 179, 179);
+    left: 23%;
+    top: -80px;
+    bottom: 60px;
+    z-index: -1;
+  }
+  .middle__button {
+    width: fit-content;
+    position: relative;
+    left: 107px;
+    bottom: -22px;
+  }
+}

@@ -1,11 +1,14 @@
-
-import './App.css';
-
+import "./App.css";
+import "./utilities/BtnMain/BtnMain";
+import "./utilities/BtnSec/BtnSec";
+import TopSection from "./layout/TopSection/TopSection";
+import MiddleSection from "./layout/MiddleSection/MiddleSection";
 function App() {
   return (
     <div className="App">
       <div className="container">
-        
+        <TopSection />
+        <MiddleSection />
       </div>
     </div>
   );

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAWf;;AAfD,AAKE,eALa,CAKb,MAAM,CAAC;EACL,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;EACZ,gBAAgB,EAAE,iDAAiD;EACnE,UAAU,EAAE,mBAAoB;CAIjC",
+    "sources": [
+        "BtnDel.scss"
+    ],
+    "names": [],
+    "file": "BtnDel.css"
+}

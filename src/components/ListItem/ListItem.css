@@ -1,0 +1,56 @@
+.ListItemContainer {
+  position: relative;
+  list-style: none;
+  height: 52px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -4px 1px 11px 1px rgba(75, 89, 123, 0.13);
+  padding-left: 25px;
+}
+
+.ListItemContainer .ListItemContainer__text {
+  float: left;
+  line-height: 52px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4b597b;
+}
+
+.ListItemContainer .ListItemContainer__button {
+  float: right;
+  height: 52px;
+}
+
+.ListItemContainer .horizontalLine {
+  position: absolute;
+  border-bottom: 2px solid #b3b3b3;
+  width: 100%;
+  top: 50%;
+  left: -80px;
+  z-index: -100;
+}
+
+.ListItemContainer .ListItemContainer__andText {
+  position: absolute;
+  color: #b3b3b3;
+  left: -127px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -100;
+}
+
+.ListItemContainer:before {
+  background: linear-gradient(180deg, #bb83fc 0%, #5f79f6 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 8px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*# sourceMappingURL=ListItem.css.map */
