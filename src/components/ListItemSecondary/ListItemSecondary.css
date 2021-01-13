@@ -1,0 +1,21 @@
+.listItemSecondary {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  min-height: 38px;
+  margin-bottom: 10px;
+}
+
+.listItemSecondary .listItemSecondary_text {
+  float: left;
+  line-height: 37px;
+  margin-left: 15px;
+}
+
+.listItemSecondary .listItemSecondary_text .textContent {
+  line-height: 29px;
+}
+
+.listItemSecondary .listItemSecondary_button {
+  float: right;
+}
+/*# sourceMappingURL=ListItemSecondary.css.map */

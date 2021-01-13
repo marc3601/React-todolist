@@ -1,4 +1,55 @@
 .largeContainer {
-  height: 252px;
+  min-height: 252px;
+}
+
+.largeContainer .largeContainer__content {
+  width: 95%;
+  min-height: 90%;
+}
+
+.largeContainer .largeContainer__content .ethnicityContainer {
+  width: 100%;
+  height: 68px;
+  padding-top: 14px;
+}
+
+.largeContainer .largeContainer__content .ethnicityContainer .ethnicity {
+  position: relative;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 82%;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4b597b;
+  z-index: 1;
+  float: left;
+}
+
+.largeContainer .largeContainer__content .ethnicityContainer .ethnicity .ethnicity_text {
+  line-height: 5px;
+}
+
+.largeContainer .largeContainer__content .ethnicityContainer .ethnicityDelete {
+  float: right;
+}
+
+.largeContainer .largeContainer__content .listContainerSmall {
+  padding: 20px 0 30px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.largeContainer .largeContainer__content .listContainerSmall .smallLine {
+  left: -9%;
+  top: -39px;
+  z-index: 0;
+  border-color: #dbdbdb;
+}
+
+.largeContainer .largeContainer__content .listContainerSmall .listItemsSmall {
+  list-style: none;
 }
 /*# sourceMappingURL=ListItemLarge.css.map */

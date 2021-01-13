@@ -1,3 +1,47 @@
 .largeContainer {
-    height: 252px;
+  min-height: 252px;
+  .largeContainer__content {
+    width: 95%;
+    min-height: 90%;
+    // outline: 1px solid green;
+    .ethnicityContainer {
+      width: 100%;
+      height: 68px;
+      padding-top: 14px;
+      .ethnicity {
+        position: relative;
+        border: 1px solid #dbdbdb;
+        background-color: #fff;
+        border-radius: 3px;
+        margin-top: 5px;
+        padding: 10px;
+        width: 82%;
+        font-size: 15px;
+        font-weight: 900;
+        color: #4b597b;
+        z-index: 1;
+        float: left;
+        .ethnicity_text {
+          line-height: 5px;
+        }
+      }
+      .ethnicityDelete {
+        float: right;
+      }
+    }
+    .listContainerSmall {
+      padding: 20px 0 30px;
+      margin-left: 60px;
+      position: relative;
+      .smallLine {
+        left: -9%;
+        top: -39px;
+        z-index: 0;
+        border-color: #dbdbdb;
+      }
+      .listItemsSmall {
+        list-style: none;
+      }
+    }
+  }
 }

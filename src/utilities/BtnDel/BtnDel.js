@@ -1,8 +1,8 @@
 import React from "react";
 import "./BtnDel.css";
-const BtnDel = ({ id }) => {
+const BtnDel = ({deleteEntry,delID,isSmall }) => {
   return (
-    <button className="buttonSecContainer__button minusContainer">
+    <button onClick={()=> deleteEntry(delID) } className={!isSmall ? "buttonSecContainer__button minusContainer" : "buttonSecContainer__button minusContainer smallBtn"}>
       <div className="buttonSec__iconContainer minus">
         <svg
           className="minus__sign"
