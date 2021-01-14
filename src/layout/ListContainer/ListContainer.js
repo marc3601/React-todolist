@@ -2,7 +2,7 @@ import React from "react";
 import "./ListContainer.css";
 import ListItem from "../../components/ListItem/ListItem";
 import ListItemLarge from "../../components/ListItemLarge/ListItemLarge";
-const ListContainer = ({ items, deleteEntry }) => {
+const ListContainer = ({ items, deleteEntry}) => {
   return (
     <section className="listContainer">
       <ul className="listItems">

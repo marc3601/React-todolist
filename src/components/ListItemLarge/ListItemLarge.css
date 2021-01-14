@@ -1,5 +1,8 @@
 .largeContainer {
-  min-height: 252px;
+  min-height: 190px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4b597b;
 }
 
 .largeContainer .largeContainer__content {
@@ -21,9 +24,6 @@
   margin-top: 5px;
   padding: 10px;
   width: 82%;
-  font-size: 15px;
-  font-weight: 900;
-  color: #4b597b;
   z-index: 1;
   float: left;
 }
@@ -37,19 +37,31 @@
 }
 
 .largeContainer .largeContainer__content .listContainerSmall {
-  padding: 20px 0 30px;
+  padding: 20px 0 50px;
   margin-left: 60px;
   position: relative;
+  z-index: 0;
 }
 
 .largeContainer .largeContainer__content .listContainerSmall .smallLine {
   left: -9%;
   top: -39px;
+  bottom: 36px;
   z-index: 0;
   border-color: #dbdbdb;
 }
 
 .largeContainer .largeContainer__content .listContainerSmall .listItemsSmall {
   list-style: none;
+}
+
+.largeContainer .largeContainer__buttonSection {
+  position: relative;
+}
+
+.largeContainer .largeContainer__buttonSection .largeContainer__addButton {
+  position: absolute;
+  left: 17px;
+  bottom: 20px;
 }
 /*# sourceMappingURL=ListItemLarge.css.map */

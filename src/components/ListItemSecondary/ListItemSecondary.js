@@ -1,15 +1,17 @@
 import React from "react";
 import "./ListItemSecondary.css";
 import BtnDel from "../../utilities/BtnDel/BtnDel";
-const ListItemSecondary = () => {
+const ListItemSecondary = ({ delID, content, deleteEntry }) => {
   return (
     <li className="listItemSecondary">
       <div className="listItemSecondary_text">
-        <span className="textContent">Test</span>
+        <span className="textContent">{content}</span>
       </div>
       <div className="listItemSecondary_button">
-        <BtnDel isSmall={true} />
+        <BtnDel isSmall={true} delID={delID} deleteEntry={deleteEntry} />
       </div>
+      <div className="horizontalLine smallLine"></div>
+      <div className="ListItemContainer__andText orText">Or</div>
     </li>
   );
 };

@@ -4,7 +4,7 @@ import BtnMain from "../../utilities/BtnMain/BtnMain";
 const TopSection = () => {
   return (
     <section className="top">
-      <BtnMain />
+      <BtnMain text="People" />
     </section>
   );
 };

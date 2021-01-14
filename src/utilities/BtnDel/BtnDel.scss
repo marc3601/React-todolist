@@ -10,9 +10,13 @@
     padding: 6px;
     background-image: linear-gradient(180deg, #f76a8f 0%, #f35472 100%);
     box-shadow: 0 10px 30px #ffd0d7;
-    // .minus__sign {
-
-    // }
+    .plus__sign {
+      filter: drop-shadow(0px 4px 4px #27c0b3);
+    }
+  }
+  .plus {
+    background-image: linear-gradient(180deg, #7ef1a6 0%, #39e9d9 100%);
+    box-shadow: 0 10px 30px rgba(75, 89, 123, 0.13);
   }
 }
 .smallBtn {

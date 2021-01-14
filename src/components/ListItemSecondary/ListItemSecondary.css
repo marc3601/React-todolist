@@ -3,6 +3,8 @@
   border-radius: 3px;
   min-height: 38px;
   margin-bottom: 10px;
+  position: relative;
+  background-color: #fff !important;
 }
 
 .listItemSecondary .listItemSecondary_text {
@@ -17,5 +19,15 @@
 
 .listItemSecondary .listItemSecondary_button {
   float: right;
+}
+
+.listItemSecondary .smallLine {
+  bottom: 17px !important;
+  z-index: -1 !important;
+}
+
+.listItemSecondary .orText {
+  left: -53px;
+  color: #e6e6e6;
 }
 /*# sourceMappingURL=ListItemSecondary.css.map */

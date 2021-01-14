@@ -1,15 +1,13 @@
-import React from 'react'
-import "./BtnMain.css"
-const BtnMain = () => {
-    return (
-        <div className="buttonContainer">
-            <button className="buttonContainer__button">
-                <span className="button__text">
-                    People
-                </span>
-            </button>
-        </div>
-    )
-}
+import React from "react";
+import "./BtnMain.css";
+const BtnMain = ({ text, click }) => {
+  return (
+    <div className="buttonContainer">
+      <button onClick={click} className="buttonContainer__button">
+        <span className="button__text">{text}</span>
+      </button>
+    </div>
+  );
+};
 
-export default BtnMain
+export default BtnMain;
