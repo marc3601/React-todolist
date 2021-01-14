@@ -31,7 +31,7 @@ const Modal = ({
       >
         <form action="#" className="modalContainer__inputForm">
           <label className="modalContainer__text" htmlFor="text">
-            Enter the text
+            Create new entry
           </label>
           <input
             onChange={handleInput}
@@ -46,6 +46,7 @@ const Modal = ({
           <BtnMain
             text="Submit"
             click={(e) => {
+              e.preventDefault();
               if (/^ *$/.test(inputText)) {
                 setAlert(true);
               } else {

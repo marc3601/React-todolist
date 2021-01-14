@@ -31,6 +31,9 @@
 
 .modalContainer .modalContainer__inputForm .modalContainer__text {
   padding-bottom: 40px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #4b597b;
 }
 
 .modalContainer .modalContainer__inputForm .modalContainer__input {
