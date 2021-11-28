@@ -1,3 +1,3 @@
 # Simple todo application
 
-LIVE DEMO => https://todolist-interview.herokuapp.com/
+LIVE DEMO => https://todolist-reacct.herokuapp.com
